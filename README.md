@@ -17,6 +17,7 @@ GitRo is a React Native app that allows users to search for GitHub repositories 
 1. Clone the repository:
 ```bash
 git clone https://github.com/Nikhil-Nadkar/GitRo---React-Native-Expo-with-NavtiveWind.git
+cd GitRo---React-Native-Expo-with-NavtiveWind
 ```
 
 2. Install dependencies:
@@ -28,6 +29,10 @@ npm install
 ```bash
 npx expo start
 ```
+
+## Demo
+
+https://expo.dev/accounts/nikhil_n/projects/GitRo/builds/ac13b9c8-b8c5-4f95-baf3-d4b4a3bccecc
 
 ## Project Structure
 ```
