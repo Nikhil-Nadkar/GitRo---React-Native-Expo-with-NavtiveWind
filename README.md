@@ -1,9 +1,9 @@
-# GitRo - React Native Expo Project with NativeWind
+# 📱 GitRo - React Native Expo Project with NativeWind
 
-## Overview
+## 🔍 Overview
 GitRo is a React Native app that allows users to search for GitHub repositories and view detailed information about them. It features the ability to mark repositories as favorites and manage them easily. 
 
-## Tech Stack
+## 🛠️ Tech Stack
 - **React Native**: `0.76.6`
 - **Expo**: `52.0.25`
 - **Navigation**: React Navigation (Bottom Tabs & Stack)
@@ -11,30 +11,25 @@ GitRo is a React Native app that allows users to search for GitHub repositories 
 - **Styling**: NativeWind/TailwindCSS
 - **Networking**: Axios
 
-
-## Installation
-
+## ⚙️ Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/Nikhil-Nadkar/GitRo---React-Native-Expo-with-NavtiveWind.git
 cd GitRo---React-Native-Expo-with-NavtiveWind
 ```
-
 2. Install dependencies:
 ```bash
 npm install
 ```
-
 3. Start the development server:
 ```bash
 npx expo start
 ```
 
-## Demo
-
+## 🎮 Demo
 https://expo.dev/accounts/nikhil_n/projects/GitRo/builds/ac13b9c8-b8c5-4f95-baf3-d4b4a3bccecc
 
-## Project Structure
+## 📂 Project Structure
 ```
 ├── .expo
 ├── assets
@@ -56,16 +51,15 @@ https://expo.dev/accounts/nikhil_n/projects/GitRo/builds/ac13b9c8-b8c5-4f95-baf3
 └── package.json
 ```
 
-## Features
-- Home screen with repository listings
-- Detailed view for repositories
-- Favorites management system
-- Bottom tab navigation
-- Responsive styling with NativeWind
-- Redux state management for favorites
+## ✨ Features
+- 🏠 Home screen with repository listings
+- 📄 Detailed view for repositories
+- ⭐ Favorites management system
+- 🔽 Bottom tab navigation
+- 📱 Responsive styling with NativeWind
+- 🔄 Redux state management for favorites
 
-
-### Running the App-Development
+## 🚀 Running the App-Development
 ```bash
 # Start Expo development server
 npx expo start
@@ -77,7 +71,7 @@ npx expo run:ios
 npx expo run:android
 ```
 
-## Styling
+## 🎨 Styling
 This project uses NativeWind (TailwindCSS for React Native) for styling. The configuration can be found in `tailwind.config.js`.
 
 Example usage in components:
@@ -88,5 +82,5 @@ Example usage in components:
 </View>
 ```
 
-## State Management
+## 📊 State Management
 Redux is implemented for state management, particularly for handling favorites functionality. The store configuration and slices can be found in the `redux` directory.
